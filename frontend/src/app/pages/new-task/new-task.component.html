@@ -6,8 +6,8 @@
         <input #taskTitleInput class="input" type="text" placeholder="Enter task name">
       
         <div class="buttons is-right">
-            <button class="button"routerLink="/">Cancel</button>
-            <button class="button is-primary">Create</button>
+            <button class="button"routerLink="/lists">Cancel</button>
+            <button class="button is-primary"(click)="createTask(taskTitleInput.value)">Create</button>
     
         </div>
     </div>

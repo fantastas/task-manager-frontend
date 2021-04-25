@@ -10,7 +10,8 @@ export class WebRequestService {
   readonly ROOT_URL: any;
 
   constructor(private http: HttpClient ) { 
-    this.ROOT_URL = 'http://localhost:3000';
+    // localhost:3000
+    this.ROOT_URL = 'mongodb+srv://Marius:Troleibusas123@cluster0.al8uf.mongodb.net/TaskManager?retryWrites=true&w=majority';
   }
 
   get(url: string){

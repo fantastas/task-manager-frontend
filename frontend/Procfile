@@ -1,2 +1,2 @@
-web: node dist/index.js
+web: node dist/frontend/main.82d87609005a266bc17f.js
 
